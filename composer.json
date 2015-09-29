@@ -1,0 +1,41 @@
+{
+    "name": "tecnical/l5-ldap-auth",
+    "description": "Laravel 5 Active Directory LDAP Authentication driver",
+    "keywords": [
+        "laravel",
+        "L5",
+        "LDAP",
+        "Authentication",
+        "Laravel 5"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Strebel",
+            "email": "manuel_st@msn.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Cody Covey",
+            "email": "ccovey14@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/auth": "~5.0",
+        "illuminate/config": "~5.0",
+        "tecnical/adldap": "dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tecnical\\LdapAuth\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
