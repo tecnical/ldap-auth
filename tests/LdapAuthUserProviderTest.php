@@ -1,6 +1,6 @@
 <?php
 
-use Ccovey\LdapAuth;
+use tecnical\LdapAuth;
 use Mockery as m;
 
 /**
